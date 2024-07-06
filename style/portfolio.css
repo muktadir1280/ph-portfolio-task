@@ -1,0 +1,48 @@
+/* nav style */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    font-size: 20px;
+    margin: 0px 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-title {
+    font-size: 45px;
+}
+
+span {
+    color: #FD6E0A;
+}
+
+
+/* shared properties */
+
+.primay-btn {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px 19px 36px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.dark-2 {
+    color: #474747;
+}
