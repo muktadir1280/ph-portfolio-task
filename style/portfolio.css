@@ -23,6 +23,7 @@ a {
 }
 
 .nav-title {
+    font-weight: bolder;
     font-size: 45px;
 }
 
@@ -43,6 +44,72 @@ span {
     border: none;
 }
 
+.primay-btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+}
+
 .dark-2 {
     color: #474747;
+}
+
+.dark-3 {
+    color: #757575;
+}
+
+
+/* banner part */
+
+.banner {
+    margin: 20px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.banner-desc {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.banner-btn {
+    margin-top: 30px;
+}
+
+.banner-btn:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+#btn2 {
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    margin-left: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#btn2:hover {
+    background-color: #FD6E0A;
+    color: white;
+}
+
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
