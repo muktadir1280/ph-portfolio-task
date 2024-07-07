@@ -59,6 +59,11 @@ span {
     color: #757575;
 }
 
+.bold-text {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
 
 /* banner part */
 
@@ -112,4 +117,38 @@ span {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+
+
+/* about me start */
+
+.about {
+    height: 550px;
+    width: 1140 px;
+    background-color: #FFF8F3;
+    margin: 50px 250px;
+}
+
+.about-me {
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    padding: 130px 150px;
+    /* border: 1px solid black; */
+}
+
+.about-me-desc {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.about-me-title {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.about-me-details {
+    font-size: 18px;
 }
